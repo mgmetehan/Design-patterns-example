@@ -4,5 +4,5 @@ public class NotificationService {
     public static void main(String[] args) {
         NotificationFactory.createNotification(NotificationType.MAIL).notifyUser();
     }
-    // * Notification -> SMSNotification -> MailNotification -> PushNotification -> NotificationFactory -> NotificationService
+    // * Notification -> SMSNotification -> MailNotification -> NotificationFactory -> NotificationType -> NotificationService
 }
