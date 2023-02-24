@@ -1,4 +1,4 @@
-package com.mgmetehan.Designpatternsexample.singleton;
+package com.mgmetehan.Designpatternsexample.CreationalDesignPatterns.singleton;
 
 public class ThreadSafeSingleton {
     // ! Ayni anda birden fazla thread'in bu siniftan instance almasini engeller.

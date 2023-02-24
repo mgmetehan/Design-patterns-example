@@ -1,4 +1,4 @@
-package com.mgmetehan.Designpatternsexample.singleton;
+package com.mgmetehan.Designpatternsexample.CreationalDesignPatterns.singleton;
 
 public class BillPughSingleton {
     // ! static nested class olusturur ve nesneyi olusturur.

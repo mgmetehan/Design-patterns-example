@@ -1,4 +1,4 @@
-package com.mgmetehan.Designpatternsexample.singleton;
+package com.mgmetehan.Designpatternsexample.CreationalDesignPatterns.singleton;
 
 public class EagerInitializationSingleton {
     // !! Uygulama basladiginda instance olusturulur.
