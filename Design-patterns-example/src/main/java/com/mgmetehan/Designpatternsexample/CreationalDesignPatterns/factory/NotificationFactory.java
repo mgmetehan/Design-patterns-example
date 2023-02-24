@@ -1,7 +1,7 @@
 package com.mgmetehan.Designpatternsexample.CreationalDesignPatterns.factory;
 
 public class NotificationFactory {
-    public Notification createNotification(NotificationType type) {
+    public static Notification createNotification(NotificationType type) {
         switch (type) {
             case SMS:
                 return new SmsNotification();
