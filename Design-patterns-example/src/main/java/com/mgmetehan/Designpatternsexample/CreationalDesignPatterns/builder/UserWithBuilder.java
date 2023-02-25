@@ -22,9 +22,14 @@ public class UserWithBuilder {
         private String phone;
         private String address;
 
-        public Builder(String firstName, String lastName) {
+        public Builder firstname(String firstName) {
             this.firstName = firstName;
+            return this;
+        }
+
+        public Builder lastname(String lastName) {
             this.lastName = lastName;
+            return this;
         }
 
         public Builder age(int age) {

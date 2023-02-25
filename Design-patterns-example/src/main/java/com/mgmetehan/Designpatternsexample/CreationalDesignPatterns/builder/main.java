@@ -1,13 +1,18 @@
 package com.mgmetehan.Designpatternsexample.CreationalDesignPatterns.builder;
 
 public class main {
-    UserWithBuilder user1 = new UserWithBuilder.Builder("Metehan", "Gultekin")
+    UserWithBuilder user1 = new UserWithBuilder.Builder()
+            .firstname("Metehan")
+            .lastname("Gultekin")
             .age(23)
             .phone("1234567")
             .address("Fake address 1234")
             .build();
 
-    UserWithBuilder user2 = new UserWithBuilder.Builder("John", "Doe").build();
+    UserWithBuilder user2 = new UserWithBuilder.Builder()
+            .firstname("John")
+            .lastname("Doe")
+            .build();
 
     UserWithoutBuilder user3 = new UserWithoutBuilder("Metehan", "Gultekin", 23,
             "1234567", "Fake address 1234");
