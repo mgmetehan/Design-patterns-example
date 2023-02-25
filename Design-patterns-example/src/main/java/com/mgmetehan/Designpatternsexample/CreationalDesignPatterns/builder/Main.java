@@ -1,6 +1,6 @@
 package com.mgmetehan.Designpatternsexample.CreationalDesignPatterns.builder;
 
-public class main {
+public class Main {
     UserWithBuilder user1 = new UserWithBuilder.Builder()
             .firstname("Metehan")
             .lastname("Gultekin")
